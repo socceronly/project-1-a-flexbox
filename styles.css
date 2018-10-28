@@ -1,0 +1,147 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+header, main, footer {
+	padding: 25px 150px;
+}
+
+header {
+	background-image: url(assets/image-main.jpeg);
+	background-position: 0 -200px;
+	background-repeat: no-repeat;
+	height: 700px;
+	margin-bottom: 100px;
+}
+
+ul {
+	list-style: none;
+}
+
+.logo_nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+/*	background: yellow;
+*/}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header ul li {
+	padding-left: 30px;
+}
+
+.logo {
+	font-size: 3.8rem;
+	font-weight: 700;
+	color: #005769;
+	text-transform: lowercase;
+}
+
+nav {
+	display: flex;
+	width:400px;
+	justify-content: flex-end;
+}
+
+a {
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333333;
+}
+
+a:hover {
+	color: white;
+	background: #16D6D1;
+	border-radius: 5px;
+}
+
+
+.headerTitle {
+	font-size: 6.8rem;
+	font-weight: 700;
+	color: #777777;
+	width: 560px;
+	padding-top: 250px;
+}
+
+.teaserWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.teaserImage{
+	width: 350px;
+}
+
+.teaserImage1{
+	margin-right: 25px;
+}
+
+.teaserImage2 {
+	margin-left: 25px;
+}
+
+.teaserImage img {
+	width: 100%;
+}
+
+.teaserContent img {
+	width: 100%;
+}
+
+.teaser {
+
+	width: 550px;
+	background: #F6F8FA;
+}
+
+
+.teaserBody {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h3 {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	color: #333333;
+	margin: 50px 0;
+}
+
+h2 {
+	font-size: 3.9rem;
+	font-weight: 700;
+	text-align: center;
+	color: #777777;
+	width: 450px;
+	margin: 25px 0;
+}
